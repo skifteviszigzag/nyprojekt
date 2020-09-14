@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+}
+
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.trcorner{
+  position:absolute;
+  top:9%;
+left:2%; 
+  text-align:center;
+  color:#000;
+    font-family: cursive;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.trcorner .border{
+    color:#fff;
+    padding:20px;
+    border: 2px solid;
+    font-size: 10px;
+}
+
+.logo {
+position:absolute;
+top:5%;
+left:85%; 
+}
+
+
+.musikbar {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.video-1 {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.billedebar {
+    background-image: url(../bll/IMG_9777.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 5em;
+}
+
+.sektion-2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #8b4513;
+}
+
+.flexp{
+    width: 46%;
+    padding: 16px 5%;
+    text-align: justify;
+}
+
+
+.sektion-5 {
+    background-color: pink;
+}
+
+
+.sektion-7 {
+    background-color: white;
+    height: 25em;
+}
+
+
+.sektion-3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+
+.flexh {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.introvideo {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
